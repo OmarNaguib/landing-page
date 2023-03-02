@@ -33,3 +33,51 @@ a{
     font-size: 18px;
     
 }
+
+.hero {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 75px 50px;
+    gap: 75px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+}
+.big{
+    font: 48px extra-bold #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button{
+    width:100px;
+    padding: 8px;
+    background-color: #3382f6;
+    border: 0px;
+    border-radius: 5px;
+    align-self: flex-start;
+
+}
+.hero img{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    line-height: 150px;
+    text-align: center;
+
+}
+
+/**/
