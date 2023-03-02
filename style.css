@@ -2,6 +2,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .header{
@@ -12,7 +15,7 @@ body{
     color: #F9FAF8;
     padding: 8px 50px;
     flex: auto;
-    
+    width: 100%;
     
     
 }
@@ -34,7 +37,7 @@ a{
     font-size: 18px;
     
 }
-
+/*hero section*/
 .hero {
     display:flex;
     justify-content:center;
@@ -43,6 +46,7 @@ a{
     padding: 75px 50px;
     gap: 75px;
     flex: auto;
+    width: 100%;
 }
 .content{
     display: flex;
@@ -81,7 +85,7 @@ a{
     text-align: center;
 
 }
-
+/*info section*/
 .info{
     display: flex;
     flex-direction: column;
@@ -89,6 +93,7 @@ a{
     align-items: center;
     gap: 16px;
     flex: auto;
+    width: 100%;
 }
 .info .info-header{
     font-size:36px ;
@@ -113,5 +118,38 @@ a{
    width: 120px;
    height: 120px; 
    border-radius: 15px;
+
+}
+/*quote section*/
+.quote-container{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    width: 100%;
+    flex: auto;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    
+}
+
+.quote .author{
+align-self: flex-end;
+font-weight: bold;
+padding-right: 10px;
 
 }
