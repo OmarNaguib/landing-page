@@ -40,6 +40,8 @@ a{
     font-size: 18px;
     
 }
+
+/*hero section*/
 .hero-container{
     display:flex;
     justify-content:space-around;
@@ -55,7 +57,7 @@ a{
     display: flex;
     justify-content: center;
 }
-/*hero section*/
+
 
 .content{
     display: flex;
@@ -164,6 +166,44 @@ padding-right: 10px;
 
 }
 
+/*call-to-action*/
+.call-container{
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.call{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    background-color: #3382f6;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call button{
+    background-color: #3382f6;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    padding: 0px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+}
+
+.call .call-title{
+    font-weight: bolder;
+    font-size: 24px;
+}
 
 
 /*.hero {
