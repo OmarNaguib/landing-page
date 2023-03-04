@@ -9,12 +9,14 @@ body{
     width: 100%;
     margin: 0;
 }
-
 .header{
+    font-size: 24px ;
+}
+
+.header, .footer{
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
-    font-size: 24px ;
     color: #F9FAF8;
     padding: 8px 50px;
     flex: auto;
@@ -205,6 +207,9 @@ padding-right: 10px;
     font-size: 24px;
 }
 
+.footer{
+    padding: 20px 8px;
+}
 
 /*.hero {
     display:flex;
